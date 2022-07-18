@@ -1,0 +1,152 @@
+/* 1 rem = 1em = 16px */
+
+@media (max-width: 80em) {
+  .section-hero {
+    padding: 2rem 0 5.5rem 0;
+  }
+  .featured-in-section {
+    padding: 3rem 0;
+  }
+  .section-how {
+    padding: 3rem 0;
+  }
+  .section-meals {
+    padding: 3rem 0;
+  }
+  .section-pricing {
+    padding: 3rem 0;
+  }
+  .section-cta {
+    padding: 3rem 0;
+  }
+}
+@media (max-width: 53em) {
+  .hero {
+    max-width: 99em;
+
+    gap: 4rem;
+    align-items: stretch;
+    padding: 0 3em;
+  }
+  .primary-heading {
+    font-size: 3.4em;
+  }
+
+  .hero-img {
+    width: 98%;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 1rem 1.7rem;
+    margin-right: 1rem;
+  }
+  .cta {
+    grid-template-columns: 60fr 40fr;
+  }
+}
+@media (max-width: 50em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .grid {
+    row-gap: 4rem;
+    column-gap: 3rem;
+  }
+  .primary-heading {
+    font-size: 3.8rem;
+  }
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(3, 50fr);
+  }
+  .gallery-item img {
+    height: 90%;
+  }
+  .header {
+    padding-left: 3.9rem;
+    padding-right: 3.9rem;
+  }
+  .hero {
+    gap: 4.8rem;
+  }
+  .nav ul {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 40em) {
+  html {
+    font-size: 50%;
+  }
+  .section-hero {
+    width: 100vw;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 6rem;
+    text-align: center;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .delivered-meals {
+    justify-content: center;
+  }
+  .step-img-box::after {
+    transform: translate(50%, -50%);
+  }
+  .step-img-box::before {
+    transform: translate(20%, -50%);
+  }
+  .feature-in-imgs img {
+    height: 2rem;
+  }
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .meal {
+    width: 80%;
+  }
+
+  .diets .list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .diets {
+    grid-column: 1/-1;
+  }
+  .container {
+    width: 100vw;
+  }
+  .section-testimonial {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .step-img-box::after {
+    transform: translate(42%, -50%);
+  }
+  .step-img-box::before {
+    transform: translate(13%, -50%);
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .cta {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 34em) {
+  .step-img-box::after {
+    transform: translate(48%, -50%);
+  }
+  .step-img-box::before {
+    transform: translate(18%, -50%);
+  }
+}
