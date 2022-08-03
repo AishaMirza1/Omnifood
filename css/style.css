@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 .logo-img {
   width: 14rem;
@@ -17,7 +18,17 @@
 /******************************/
 /* NAVIGATION */
 /******************************/
-
+.mobile-nav {
+  display: none;
+  background: none;
+  border: none;
+  display: none;
+}
+.mobile-nav-icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
 .nav ul {
   display: flex;
   gap: 1rem;

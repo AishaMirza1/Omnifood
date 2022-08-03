@@ -16,6 +16,7 @@
 }
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 body {
   font-family: sans-serif;
@@ -24,6 +25,7 @@ body {
   color: #333;
   font-family: "Rubik", sans-serif;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 /******************************/
