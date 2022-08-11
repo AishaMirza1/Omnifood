@@ -4,6 +4,7 @@
 .header {
   background-color: #fae5d3;
   padding: 2.5rem 5.5rem;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -64,6 +65,22 @@
   color: #fff;
   background-color: #cf711f;
 }
+
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.97);
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 5.5rem;
+  box-shadow: 0 1px 12px rgb(0, 0, 0, 0.1);
+  z-index: 999;
+}
+.sticky .section-hero {
+  margin-top: 6rem;
+}
+
 /******************************/
 /* Hero Section*/
 /******************************/
